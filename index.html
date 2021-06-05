@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div id="header" class="header">
+                <div class="menuToggle" onclick="ToggleMenu()">
+                </div>
+                <div class="header__logo">
+                    <img src="/Run/img/img/klassy-logo.png" alt="">
+                </div>
+                <div class="navigation">
+                    <div class="toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <nav>   
+                        <ul class="navigation">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#About"> About</a></li>
+                    <li><a href="#Menu">Menu</a></li>
+                    <li><a href="">Chefs</a></li>
+                    <li><a href="">Feature
+                    <i class="ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="">Feature page 1</a></li>
+                        <li><a href="">Feature page 2</a></li>
+                        <li><a href="">Feature page 3</a></li>
+                        <li><a href="">Feature page 3</a></li>
+                    </ul></li>
+                    <li><a href="">Contact Us</a></li>
+                    </ul>
+
+            </nav>
+            </div>
+            </div>
+        </header>
+        <div class="slider">
+            <div class="row">
+                    <div class="slider__left">
+                        <img src="/Run/img/img/top-left-bg.jpg" alt="">
+                       <div class="slider__left-text">
+                           <h4>KlassyCafe</h4>
+                           <h6>THE BEST EXPERIENCE</h6>
+                           <a href="">Make A Reservation</a>
+                       </div>
+                    </div>
+
+
+                    <div class="slider__right">
+                        <img src="/Run/img/img/slide-03.jpg" alt="">    
+                    </div>
+
+            </div>
+        </div>
+
+        <div id="About" class="About">
+            <div class="About__left">
+                <div class="About__left-text">
+            <h4>
+                ABOUT US
+            </h4>
+            <h2>
+                We Leave A Delicious <br>Memory For You
+            </h2>
+            <p>
+                Klassy Cafe is one of the best <span>restaurant HTML templates</span> with Bootstrap v4.5.2 CSS framework. You can download and feel free to use this website template layout for your restaurant business. You are allowed to use this template for commercial purposes.
+
+You are NOT allowed to redistribute the template ZIP file on any template donwnload website. Please contact us for more information.
+            </p>
+                </div>
+                <div class="About__left-img">
+                <img src="/Run/img/img/about-thumb-01.jpg" alt="">
+                <img src="/Run/img/img/about-thumb-02.jpg" alt="">
+                <img src="/Run/img/img/about-thumb-03.jpg" alt="">
+                </div>
+            </div>
+            <div class="About__right">
+                <img src="/Run/img/img/about-video-bg.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div id="Menu"class="Menu">
+        <div class="Menu__text">
+            <h4>
+                OUR MENU
+            </h4>
+            <h2>Our selection of cakes <br> quality taste</h2>
+        </div>
+    <div class="Menu__img">
+        <img src="/Run/img/img/menu-item-01.jpg" alt="">
+        <img src="/Run/img/img/menu-item-02.jpg" alt="">
+        <img src="/Run/img/img/menu-item-03.jpg" alt="">
+        <img src="/Run/img/img/menu-item-04.jpg" alt="">
+        <img src="/Run/img/img/menu-item-05.jpg" alt="">
+
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('.toggle').click(function() {
+                $('nav').slideToggle();
+            });
+        })
+    </script>
+</body>
+</html>
